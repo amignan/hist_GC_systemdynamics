@@ -1,5 +1,7 @@
 # Reproducing doomsday models in R
 
+The repository hist_gc_sysdyn (short for history_globalcatastrophes_systemdynamics) contains R codes of published system-dynamics models of global catrastrophes, doomsday scenarios, and other existential risks. 
+
 **Rworld2**: Translation of the World2 model from DYNAMO to R, based on the source codes given in Forrester (1971), chapter 3 and appendix B. The World2 model can be considered the first computer-based doomsday model. It is a 5th-order differential equation model with population, natural resource, capital investment, capital-investment-in-agriculture fraction, and pollution as main variables. The R code has been benchmarked against Fig. 4-1 of Forrester (1971). Read more in Mignan (2020).
 
 ![Benchmarking R versus DYNAMO](https://github.com/amignan/hist_gc_sysdyn/blob/master/fig_benchmarking_RvsDYNAMO.jpg)
