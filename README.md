@@ -2,7 +2,7 @@
 
 ## Reproducing the doomsday models (World2, World3) of Jay W. Forrester
 
-Codes of published system-dynamics models of global catrastrophes, doomsday scenarios, and other existential risks. 
+Codes of published system-dynamics models of global catastrophes, doomsday scenarios, and other existential risks. 
 
 **Rworld2**: Translation of the World2 model from DYNAMO to R, based on the source codes given in Forrester (1971), chapter 3 and appendix B. The World2 model can be considered the first computer-based doomsday model. It is a 5th-order differential equation model with population, natural resource, capital investment, capital-investment-in-agriculture fraction, and pollution as main variables. The R code has been benchmarked against Fig. 4-1 of Forrester (1971). Read more in [Mignan (2020)](https://towardsdatascience.com/world2-model-from-dynamo-to-r-2e44fdbd0975).
 
